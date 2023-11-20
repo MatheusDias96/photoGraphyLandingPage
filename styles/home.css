@@ -1,6 +1,7 @@
 .header-container {
-  width: 99vw;
-  height: 900px;
+  max-width: 1440vh;
+  height: 100vh;
+  flex-shrink: 0;
   background-image: url(../public/img/background.png);
   background-color: lightgray;
   background-position: 50%;
@@ -30,7 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   margin-top: 40px;
 }
 
@@ -45,8 +45,6 @@
   
   text-align: center;
   margin: 0 auto;
-
-  
 }
 
 .ul-container li a {
@@ -73,7 +71,7 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 180px;
+  margin-top: 227px;
 
   border: 1px solid black;
   border-radius: 4px;
@@ -81,9 +79,6 @@
   transition: box-shadow 0.2s ease;
   background: transparent;
   cursor: pointer;
-
-  
-  
 }
 
 .btn{
@@ -95,7 +90,6 @@
   line-height: normal;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-
 }
 
 .btn-container:hover{
@@ -115,5 +109,8 @@
     text-align: center;
     display: flex;
 
+  }
+  .btn-container{
+    margin-top: 100px;
   }
 }
