@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 @import url(./home.css);
 @import url(./sectionGalery.css);
+@import url(./sectionInsta.css);
+@import url(./footer.css);
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 li, a{

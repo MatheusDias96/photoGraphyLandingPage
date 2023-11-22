@@ -1,0 +1,63 @@
+.footer {
+  width: 100vw;
+  height: 953px;
+  background-image: url(../public/img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 106px;
+  gap: 31px;
+}
+
+.title-footer {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5.6px;
+}
+
+.subtitle-footer{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.socials {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.socials img {
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+}
+
+
+.jennife-footer{
+color: #FFF;
+font-family: Sacramento;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}

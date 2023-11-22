@@ -114,3 +114,12 @@
     margin-top: 100px;
   }
 }
+
+@media screen and (max-width: 667px) {
+  .title{
+    margin-top: 20px;
+  }
+  .btn-container{
+    margin-top: 0;
+  }
+}
