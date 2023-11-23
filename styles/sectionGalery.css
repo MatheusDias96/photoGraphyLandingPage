@@ -12,7 +12,7 @@
 
 .sub-title {
   text-align: center;
-  color: var(--Gray-1, #333);
+  /* color: var(--Gray-1, #333); */
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
@@ -30,7 +30,7 @@
   flex-wrap: wrap;
 }
 
-.ul-section a {
+.mountain, .costal, .sea, .others {
   color: var(--Gray-4, #BDBDBD);
   font-family: Montserrat;
   font-size: 18px;
@@ -108,9 +108,11 @@
 .card-img {
   width: 100%;
 }
-
+.sea{
+  color: var(--Blue-3, #56CCF2);
+}
 .span-card {
-  color: var(--Gray-3, #828282);
+  /* color: var(--Gray-3, #828282); */
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -120,7 +122,7 @@
 }
 
 .info-name {
-  color: var(--Gray-1, #333);
+  /* color: var(--Gray-1, #333); */
   font-family: Montserrat;
   font-size: 36px;
   font-style: normal;
@@ -130,7 +132,7 @@
 }
 
 .info-details {
-  color: var(--Gray-3, #828282);
+  /* color: var(--Gray-3, #828282); */
   text-align: justify;
   font-family: Montserrat;
   font-size: 18px;
@@ -158,19 +160,18 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-   /* img {
+    img {
     width: 200px;
     height: 200px;
-  } */
-  /* .gallery-container {
+  } 
+   .gallery-container {
 
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: end;
     align-items: flex-end;
-  } */
+  } 
 
   .card-container {
     margin-top: 0;
@@ -198,14 +199,11 @@
 @media screen and (max-width: 667px) {
   .section-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  /* img {
-    width: 150px;
-    height: 150px;
-  } */
 
   .gallery-container {
     display: flex;
